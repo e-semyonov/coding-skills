@@ -8,6 +8,7 @@ public class ArrayInitialization {
 
 
     // primitive type array
+    int[] hashTable = new int[26]; // defaults to 0
     int[] nums = {1, 2, 3, 4, 5};
     List<int[]> list = Arrays.asList(nums);// list of the array as the element
     char[] chars =  {'a', 'b', 'c'};
