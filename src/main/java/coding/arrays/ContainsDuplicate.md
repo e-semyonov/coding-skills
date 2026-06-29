@@ -1,14 +1,29 @@
 # Contains Duplicate
-Easy Topics  Company Tags  Hints
 
-Given an integer array nums, return true if any value appears more than once in the array, otherwise return false.
+Given an integer array `nums`, return `true` if any value appears more than once in the array; otherwise return `false`.
 
-Example 1:
+### Examples
 
-Input: nums = [1, 2, 3, 3]
-Output: true
+**Example 1**
 
-Example 2:
+Input:
+```text
+nums = [1, 2, 3, 3]
+```
 
-Input: nums = [1, 2, 3, 4]
-Output: false
+Output:
+```text
+true
+```
+
+**Example 2**
+
+Input:
+```text
+nums = [1, 2, 3, 4]
+```
+
+Output:
+```text
+false
+```

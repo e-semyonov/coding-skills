@@ -1,16 +1,33 @@
 # Valid Anagram
-Given two strings s and t, return true if the two strings are anagrams of each other, otherwise return false.
+
+Given two strings `s` and `t`, return `true` if the two strings are anagrams of each other; otherwise return `false`.
 
 An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.
 
-Example 1:
+### Examples
 
-Input: s = "racecar", t = "carrace"
+**Example 1**
 
-Output: true
+Input:
+```text
+s = "racecar"
+t = "carrace"
+```
 
-Example 2:
+Output:
+```text
+true
+```
 
-Input: s = "jar", t = "jam"
+**Example 2**
 
-Output: false
+Input:
+```text
+s = "jar"
+t = "jam"
+```
+
+Output:
+```text
+false
+```
