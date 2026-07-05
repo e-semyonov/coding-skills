@@ -52,7 +52,7 @@ return sum(args) # 'args' is treated as a tuple
 print(sum_numbers(5, 10, 15)) # Output: 30
 ```
 
-### unmodifiable, immutable, and mutable In Java
+### Unmodifiable, Immutable, and Mutable In Java
 
 unmodifiable, immutable, and mutable are related, but not the same.
 
@@ -71,5 +71,17 @@ unmodifiable, immutable, and mutable are related, but not the same.
 3) Immutable list cannot change at all. Its contents never change.
 
 **Important difference**
+
 * Unmodifiable means: you cannot modify it through this list object.
 * Immutable means: the object itself never changes.
+
+### Divide and conquer
+
+is a powerful problem-solving strategy that involves breaking a complex challenge into smaller, manageable subproblems.
+You solve each subproblem individually and then combine those solutions to address the original issue. This concept is
+widely applied across computer science, military strategy, and everyday life.
+#### Key Principles
+The approach typically follows a three-step recursive process:
+1. Divide: Split the problem into smaller, independent parts.
+2. Conquer: Solve each smaller subproblem independently.
+3. Combine: Merge the results of the subproblems to form the final solution.
