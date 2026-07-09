@@ -12,7 +12,7 @@ public class LinkedList<E> {
     private ListNode<E> tail;
     private int size = 0;
 
-    LinkedList() {
+    public LinkedList() {
 
     }
 
